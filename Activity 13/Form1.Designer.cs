@@ -38,7 +38,7 @@
             this.tbx_eight = new System.Windows.Forms.TextBox();
             this.tbx_nine = new System.Windows.Forms.TextBox();
             this.btn_newGame = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_exit = new System.Windows.Forms.Button();
             this.lbl_wins = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -48,7 +48,6 @@
             this.tbx_one.Name = "tbx_one";
             this.tbx_one.Size = new System.Drawing.Size(75, 75);
             this.tbx_one.TabIndex = 0;
-            this.tbx_one.AutoSize = false;
             // 
             // tbx_two
             // 
@@ -56,7 +55,6 @@
             this.tbx_two.Name = "tbx_two";
             this.tbx_two.Size = new System.Drawing.Size(75, 75);
             this.tbx_two.TabIndex = 1;
-            this.tbx_two.AutoSize = false;
             // 
             // tbx_three
             // 
@@ -64,7 +62,6 @@
             this.tbx_three.Name = "tbx_three";
             this.tbx_three.Size = new System.Drawing.Size(75, 75);
             this.tbx_three.TabIndex = 2;
-            this.tbx_three.AutoSize = false;
             // 
             // tbx_four
             // 
@@ -72,7 +69,6 @@
             this.tbx_four.Name = "tbx_four";
             this.tbx_four.Size = new System.Drawing.Size(75, 75);
             this.tbx_four.TabIndex = 3;
-            this.tbx_four.AutoSize = false;
             // 
             // tbx_five
             // 
@@ -80,7 +76,6 @@
             this.tbx_five.Name = "tbx_five";
             this.tbx_five.Size = new System.Drawing.Size(75, 75);
             this.tbx_five.TabIndex = 4;
-            this.tbx_five.AutoSize = false;
             // 
             // tbx_six
             // 
@@ -88,7 +83,6 @@
             this.tbx_six.Name = "tbx_six";
             this.tbx_six.Size = new System.Drawing.Size(75, 75);
             this.tbx_six.TabIndex = 5;
-            this.tbx_six.AutoSize = false;
             // 
             // tbx_seven
             // 
@@ -96,7 +90,6 @@
             this.tbx_seven.Name = "tbx_seven";
             this.tbx_seven.Size = new System.Drawing.Size(75, 75);
             this.tbx_seven.TabIndex = 6;
-            this.tbx_seven.AutoSize = false;
             // 
             // tbx_eight
             // 
@@ -104,7 +97,6 @@
             this.tbx_eight.Name = "tbx_eight";
             this.tbx_eight.Size = new System.Drawing.Size(75, 75);
             this.tbx_eight.TabIndex = 7;
-            this.tbx_eight.AutoSize = false;
             // 
             // tbx_nine
             // 
@@ -112,7 +104,6 @@
             this.tbx_nine.Name = "tbx_nine";
             this.tbx_nine.Size = new System.Drawing.Size(75, 75);
             this.tbx_nine.TabIndex = 8;
-            this.tbx_nine.AutoSize = false;
             // 
             // btn_newGame
             // 
@@ -120,17 +111,17 @@
             this.btn_newGame.Name = "btn_newGame";
             this.btn_newGame.Size = new System.Drawing.Size(75, 23);
             this.btn_newGame.TabIndex = 9;
-            this.btn_newGame.Text = "button1";
+            this.btn_newGame.Text = "New Game";
             this.btn_newGame.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_exit
             // 
-            this.button2.Location = new System.Drawing.Point(371, 350);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_exit.Location = new System.Drawing.Point(371, 350);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(75, 23);
+            this.btn_exit.TabIndex = 10;
+            this.btn_exit.Text = "Exit";
+            this.btn_exit.UseVisualStyleBackColor = true;
             // 
             // lbl_wins
             // 
@@ -147,7 +138,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lbl_wins);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_newGame);
             this.Controls.Add(this.tbx_nine);
             this.Controls.Add(this.tbx_eight);
@@ -177,7 +168,7 @@
         private System.Windows.Forms.TextBox tbx_eight;
         private System.Windows.Forms.TextBox tbx_nine;
         private System.Windows.Forms.Button btn_newGame;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_exit;
         private System.Windows.Forms.Label lbl_wins;
     }
 }
