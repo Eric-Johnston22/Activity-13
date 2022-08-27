@@ -48,6 +48,7 @@
             this.tbx_one.Name = "tbx_one";
             this.tbx_one.Size = new System.Drawing.Size(75, 75);
             this.tbx_one.TabIndex = 0;
+            this.tbx_one.AutoSize = false;
             // 
             // tbx_two
             // 
@@ -55,6 +56,7 @@
             this.tbx_two.Name = "tbx_two";
             this.tbx_two.Size = new System.Drawing.Size(75, 75);
             this.tbx_two.TabIndex = 1;
+            this.tbx_two.AutoSize = false;
             // 
             // tbx_three
             // 
@@ -62,6 +64,7 @@
             this.tbx_three.Name = "tbx_three";
             this.tbx_three.Size = new System.Drawing.Size(75, 75);
             this.tbx_three.TabIndex = 2;
+            this.tbx_three.AutoSize = false;
             // 
             // tbx_four
             // 
@@ -69,6 +72,7 @@
             this.tbx_four.Name = "tbx_four";
             this.tbx_four.Size = new System.Drawing.Size(75, 75);
             this.tbx_four.TabIndex = 3;
+            this.tbx_four.AutoSize = false;
             // 
             // tbx_five
             // 
@@ -76,6 +80,7 @@
             this.tbx_five.Name = "tbx_five";
             this.tbx_five.Size = new System.Drawing.Size(75, 75);
             this.tbx_five.TabIndex = 4;
+            this.tbx_five.AutoSize = false;
             // 
             // tbx_six
             // 
@@ -83,6 +88,7 @@
             this.tbx_six.Name = "tbx_six";
             this.tbx_six.Size = new System.Drawing.Size(75, 75);
             this.tbx_six.TabIndex = 5;
+            this.tbx_six.AutoSize = false;
             // 
             // tbx_seven
             // 
@@ -90,6 +96,7 @@
             this.tbx_seven.Name = "tbx_seven";
             this.tbx_seven.Size = new System.Drawing.Size(75, 75);
             this.tbx_seven.TabIndex = 6;
+            this.tbx_seven.AutoSize = false;
             // 
             // tbx_eight
             // 
@@ -97,6 +104,7 @@
             this.tbx_eight.Name = "tbx_eight";
             this.tbx_eight.Size = new System.Drawing.Size(75, 75);
             this.tbx_eight.TabIndex = 7;
+            this.tbx_eight.AutoSize = false;
             // 
             // tbx_nine
             // 
@@ -104,6 +112,7 @@
             this.tbx_nine.Name = "tbx_nine";
             this.tbx_nine.Size = new System.Drawing.Size(75, 75);
             this.tbx_nine.TabIndex = 8;
+            this.tbx_nine.AutoSize = false;
             // 
             // btn_newGame
             // 
