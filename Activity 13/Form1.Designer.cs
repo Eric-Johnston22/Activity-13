@@ -28,82 +28,91 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tbx_one = new System.Windows.Forms.TextBox();
-            this.tbx_two = new System.Windows.Forms.TextBox();
-            this.tbx_three = new System.Windows.Forms.TextBox();
-            this.tbx_four = new System.Windows.Forms.TextBox();
-            this.tbx_five = new System.Windows.Forms.TextBox();
-            this.tbx_six = new System.Windows.Forms.TextBox();
-            this.tbx_seven = new System.Windows.Forms.TextBox();
-            this.tbx_eight = new System.Windows.Forms.TextBox();
-            this.tbx_nine = new System.Windows.Forms.TextBox();
+            this.tbx_1 = new System.Windows.Forms.TextBox();
+            this.tbx_2 = new System.Windows.Forms.TextBox();
+            this.tbx_3 = new System.Windows.Forms.TextBox();
+            this.tbx_4 = new System.Windows.Forms.TextBox();
+            this.tbx_5 = new System.Windows.Forms.TextBox();
+            this.tbx_6 = new System.Windows.Forms.TextBox();
+            this.tbx_7 = new System.Windows.Forms.TextBox();
+            this.tbx_8 = new System.Windows.Forms.TextBox();
+            this.tbx_9 = new System.Windows.Forms.TextBox();
             this.btn_newGame = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
-            this.lbl_wins = new System.Windows.Forms.Label();
+            this.lbl_winner = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // tbx_one
+            // tbx_1
             // 
-            this.tbx_one.Location = new System.Drawing.Point(246, 65);
-            this.tbx_one.Name = "tbx_one";
-            this.tbx_one.Size = new System.Drawing.Size(75, 75);
-            this.tbx_one.TabIndex = 0;
+            this.tbx_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_1.Location = new System.Drawing.Point(246, 65);
+            this.tbx_1.Name = "tbx_1";
+            this.tbx_1.Size = new System.Drawing.Size(75, 75);
+            this.tbx_1.TabIndex = 0;
             // 
-            // tbx_two
+            // tbx_2
             // 
-            this.tbx_two.Location = new System.Drawing.Point(330, 65);
-            this.tbx_two.Name = "tbx_two";
-            this.tbx_two.Size = new System.Drawing.Size(75, 75);
-            this.tbx_two.TabIndex = 1;
+            this.tbx_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_2.Location = new System.Drawing.Point(330, 65);
+            this.tbx_2.Name = "tbx_2";
+            this.tbx_2.Size = new System.Drawing.Size(75, 75);
+            this.tbx_2.TabIndex = 1;
             // 
-            // tbx_three
+            // tbx_3
             // 
-            this.tbx_three.Location = new System.Drawing.Point(414, 65);
-            this.tbx_three.Name = "tbx_three";
-            this.tbx_three.Size = new System.Drawing.Size(75, 75);
-            this.tbx_three.TabIndex = 2;
+            this.tbx_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_3.Location = new System.Drawing.Point(414, 65);
+            this.tbx_3.Name = "tbx_3";
+            this.tbx_3.Size = new System.Drawing.Size(75, 75);
+            this.tbx_3.TabIndex = 2;
             // 
-            // tbx_four
+            // tbx_4
             // 
-            this.tbx_four.Location = new System.Drawing.Point(246, 146);
-            this.tbx_four.Name = "tbx_four";
-            this.tbx_four.Size = new System.Drawing.Size(75, 75);
-            this.tbx_four.TabIndex = 3;
+            this.tbx_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_4.Location = new System.Drawing.Point(246, 146);
+            this.tbx_4.Name = "tbx_4";
+            this.tbx_4.Size = new System.Drawing.Size(75, 75);
+            this.tbx_4.TabIndex = 3;
             // 
-            // tbx_five
+            // tbx_5
             // 
-            this.tbx_five.Location = new System.Drawing.Point(330, 146);
-            this.tbx_five.Name = "tbx_five";
-            this.tbx_five.Size = new System.Drawing.Size(75, 75);
-            this.tbx_five.TabIndex = 4;
+            this.tbx_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_5.Location = new System.Drawing.Point(330, 146);
+            this.tbx_5.Name = "tbx_5";
+            this.tbx_5.Size = new System.Drawing.Size(75, 75);
+            this.tbx_5.TabIndex = 4;
             // 
-            // tbx_six
+            // tbx_6
             // 
-            this.tbx_six.Location = new System.Drawing.Point(414, 146);
-            this.tbx_six.Name = "tbx_six";
-            this.tbx_six.Size = new System.Drawing.Size(75, 75);
-            this.tbx_six.TabIndex = 5;
+            this.tbx_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_6.Location = new System.Drawing.Point(414, 146);
+            this.tbx_6.Name = "tbx_6";
+            this.tbx_6.Size = new System.Drawing.Size(75, 75);
+            this.tbx_6.TabIndex = 5;
             // 
-            // tbx_seven
+            // tbx_7
             // 
-            this.tbx_seven.Location = new System.Drawing.Point(246, 227);
-            this.tbx_seven.Name = "tbx_seven";
-            this.tbx_seven.Size = new System.Drawing.Size(75, 75);
-            this.tbx_seven.TabIndex = 6;
+            this.tbx_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_7.Location = new System.Drawing.Point(246, 227);
+            this.tbx_7.Name = "tbx_7";
+            this.tbx_7.Size = new System.Drawing.Size(75, 75);
+            this.tbx_7.TabIndex = 6;
             // 
-            // tbx_eight
+            // tbx_8
             // 
-            this.tbx_eight.Location = new System.Drawing.Point(330, 227);
-            this.tbx_eight.Name = "tbx_eight";
-            this.tbx_eight.Size = new System.Drawing.Size(75, 75);
-            this.tbx_eight.TabIndex = 7;
+            this.tbx_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_8.Location = new System.Drawing.Point(330, 227);
+            this.tbx_8.Name = "tbx_8";
+            this.tbx_8.Size = new System.Drawing.Size(75, 75);
+            this.tbx_8.TabIndex = 7;
             // 
-            // tbx_nine
+            // tbx_9
             // 
-            this.tbx_nine.Location = new System.Drawing.Point(414, 227);
-            this.tbx_nine.Name = "tbx_nine";
-            this.tbx_nine.Size = new System.Drawing.Size(75, 75);
-            this.tbx_nine.TabIndex = 8;
+            this.tbx_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_9.Location = new System.Drawing.Point(414, 227);
+            this.tbx_9.Name = "tbx_9";
+            this.tbx_9.Size = new System.Drawing.Size(75, 75);
+            this.tbx_9.TabIndex = 8;
             // 
             // btn_newGame
             // 
@@ -113,6 +122,7 @@
             this.btn_newGame.TabIndex = 9;
             this.btn_newGame.Text = "New Game";
             this.btn_newGame.UseVisualStyleBackColor = true;
+            this.btn_newGame.Click += new System.EventHandler(this.btn_newGame_Click);
             // 
             // btn_exit
             // 
@@ -122,33 +132,35 @@
             this.btn_exit.TabIndex = 10;
             this.btn_exit.Text = "Exit";
             this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
-            // lbl_wins
+            // lbl_winner
             // 
-            this.lbl_wins.AutoSize = true;
-            this.lbl_wins.Location = new System.Drawing.Point(348, 318);
-            this.lbl_wins.Name = "lbl_wins";
-            this.lbl_wins.Size = new System.Drawing.Size(35, 13);
-            this.lbl_wins.TabIndex = 11;
-            this.lbl_wins.Text = "label1";
+            this.lbl_winner.AutoSize = true;
+            this.lbl_winner.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lbl_winner.Location = new System.Drawing.Point(327, 315);
+            this.lbl_winner.Name = "lbl_winner";
+            this.lbl_winner.Size = new System.Drawing.Size(0, 13);
+            this.lbl_winner.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lbl_wins);
+            this.BackColor = System.Drawing.SystemColors.Desktop;
+            this.ClientSize = new System.Drawing.Size(800, 445);
+            this.Controls.Add(this.lbl_winner);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_newGame);
-            this.Controls.Add(this.tbx_nine);
-            this.Controls.Add(this.tbx_eight);
-            this.Controls.Add(this.tbx_seven);
-            this.Controls.Add(this.tbx_six);
-            this.Controls.Add(this.tbx_five);
-            this.Controls.Add(this.tbx_four);
-            this.Controls.Add(this.tbx_three);
-            this.Controls.Add(this.tbx_two);
-            this.Controls.Add(this.tbx_one);
+            this.Controls.Add(this.tbx_9);
+            this.Controls.Add(this.tbx_8);
+            this.Controls.Add(this.tbx_7);
+            this.Controls.Add(this.tbx_6);
+            this.Controls.Add(this.tbx_5);
+            this.Controls.Add(this.tbx_4);
+            this.Controls.Add(this.tbx_3);
+            this.Controls.Add(this.tbx_2);
+            this.Controls.Add(this.tbx_1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -158,18 +170,18 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox tbx_one;
-        private System.Windows.Forms.TextBox tbx_two;
-        private System.Windows.Forms.TextBox tbx_three;
-        private System.Windows.Forms.TextBox tbx_four;
-        private System.Windows.Forms.TextBox tbx_five;
-        private System.Windows.Forms.TextBox tbx_six;
-        private System.Windows.Forms.TextBox tbx_seven;
-        private System.Windows.Forms.TextBox tbx_eight;
-        private System.Windows.Forms.TextBox tbx_nine;
+        private System.Windows.Forms.TextBox tbx_1;
+        private System.Windows.Forms.TextBox tbx_2;
+        private System.Windows.Forms.TextBox tbx_3;
+        private System.Windows.Forms.TextBox tbx_4;
+        private System.Windows.Forms.TextBox tbx_5;
+        private System.Windows.Forms.TextBox tbx_6;
+        private System.Windows.Forms.TextBox tbx_7;
+        private System.Windows.Forms.TextBox tbx_8;
+        private System.Windows.Forms.TextBox tbx_9;
         private System.Windows.Forms.Button btn_newGame;
         private System.Windows.Forms.Button btn_exit;
-        private System.Windows.Forms.Label lbl_wins;
+        private System.Windows.Forms.Label lbl_winner;
     }
 }
 
